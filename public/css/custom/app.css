@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+
+.header
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 3px 4px rgba(90,90,90, 0.2);
+}
+.header .title
+{
+    display: flex;
+}
+
+.header .title .single-letter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin-right: 10px;
+    background-color: #009dff;
+    font-size: 24px;
+}
+.main-content
+{
+    padding: 2rem 16rem;
+}
+.space-btn
+{
+    height: 40px;
+}
+.post-title
+{
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: .4px;
+    margin-bottom: 15px;
+}
+.post-cover
+{
+    width: 100%;
+}
+.post-cover img{
+    width: 100%;
+    object-fit: cover;
+}
+.post-body
+{
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+    margin-bottom: 10px;
+}
+
+.created-at
+{
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: .4px;
+    color: rgba(57, 57, 57, 0.74);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #030303;
+    color: white !important;
+    padding: 20px 0;
+}
+
+.container
+{
+    color: white;
+    padding: 1rem 16rem;
+}
+
+.text-white
+{
+    color: white;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 900px)
+{
+    .main-content
+    {
+        padding: 1rem 8rem;
+    }
+    .container
+    {
+        padding: 1rem 8rem;
+    }
+
+    .post-title
+    {
+        font-size: 1.6rem;
+    }
+    /* CSS rules here */
+}
+
+
+@media only screen and (max-width: 720px)
+{
+    .main-content
+    {
+        padding: 1rem 2rem;
+    }
+    .container
+    {
+        padding: 1rem 2rem;
+    }
+    .post-title
+    {
+        font-size: 1.2rem;
+    }
+    .post-body
+    {
+        font-size: 1.0rem;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .main-content
+    {
+        padding: 1rem 1rem;
+    }
+    .container
+    {
+        padding: 1rem 1rem;
+    }
+}
+
